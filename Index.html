@@ -1,0 +1,201 @@
+<html>
+<body>
+Time Theorems <input type="textbox" id="TT" name="TT" value="0" onchange="ChalUpdate()">
+<table style="width: 541px; height: 352px;">
+<tbody>
+<tr>
+<td style="width: 5%"><strong>#</strong></td>
+<td style="width: 19%"><strong>x1</strong></td>
+<td style="width: 19%"><strong>x2</strong></td>
+<td style="width: 19%"><strong>x3</strong></td>
+<td style="width: 19%"><strong>x4</strong></td>
+<td style="width: 19%"><strong>x5</strong></td>
+</tr>
+<tr>
+<td style="width: 5%">1</td>
+<td style="width: 19%"><input type="checkbox" id="1x1"> <button id="R1x1" onclick="ClipIt(11)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="1x2"> <button id="R1x2" onclick="ClipIt(12)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="1x3"> <button id="R1x3" onclick="ClipIt(13)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="1x4"> <button id="R1x4" onclick="ClipIt(14)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="1x5"> <button id="R1x5" onclick="ClipIt(15)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">2</td>
+<td style="width: 19%"><input type="checkbox" id="2x1"> <button id="R2x1" onclick="ClipIt(21)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="2x2"> <button id="R2x2" onclick="ClipIt(22)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="2x3"> <button id="R2x3" onclick="ClipIt(23)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="2x4"> <button id="R2x4" onclick="ClipIt(24)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="2x5"> <button id="R2x5" onclick="ClipIt(25)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">3</td>
+<td style="width: 19%"><input type="checkbox" id="3x1"> <button id="R3x1" onclick="ClipIt(31)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="3x2"> <button id="R3x2" onclick="ClipIt(32)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="3x3"> <button id="R3x3" onclick="ClipIt(33)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="3x4"> <button id="R3x4" onclick="ClipIt(34)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="3x5"> <button id="R3x5" onclick="ClipIt(35)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">4</td>
+<td style="width: 19%"><input type="checkbox" id="4x1"> <button id="R4x1" onclick="ClipIt(41)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="4x2"> <button id="R4x2" onclick="ClipIt(42)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="4x3"> <button id="R4x3" onclick="ClipIt(43)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="4x4"> <button id="R4x4" onclick="ClipIt(44)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="4x5"> <button id="R4x5" onclick="ClipIt(45)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">5</td>
+<td style="width: 19%"><input type="checkbox" id="5x1"> <button id="R5x1" onclick="ClipIt(51)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="5x2"> <button id="R5x2" onclick="ClipIt(52)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="5x3"> <button id="R5x3" onclick="ClipIt(53)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="5x4"> <button id="R5x4" onclick="ClipIt(54)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="5x5"> <button id="R5x5" onclick="ClipIt(55)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">6</td>
+<td style="width: 19%"><input type="checkbox" id="6x1"> <button id="R6x1" onclick="ClipIt(61)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="6x2"> <button id="R6x2" onclick="ClipIt(62)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="6x3"> <button id="R6x3" onclick="ClipIt(63)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="6x4"> <button id="R6x4" onclick="ClipIt(64)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="6x5"> <button id="R6x5" onclick="ClipIt(65)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">7</td>
+<td style="width: 19%"><input type="checkbox" id="7x1"> <button id="R7x1" onclick="ClipIt(71)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="7x2"> <button id="R7x2" onclick="ClipIt(72)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="7x3"> <button id="R7x3" onclick="ClipIt(73)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="7x4"> <button id="R7x4" onclick="ClipIt(74)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="7x5"> <button id="R7x5" onclick="ClipIt(75)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">8</td>
+<td style="width: 19%"><input type="checkbox" id="8x1"> <button id="R8x1" onclick="ClipIt(81)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="8x2"> <button id="R8x2" onclick="ClipIt(82)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="8x3"> <button id="R8x3" onclick="ClipIt(83)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="8x4"> <button id="R8x4" onclick="ClipIt(84)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="8x5"> <button id="R8x5" onclick="ClipIt(85)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">9</td>
+<td style="width: 19%"><input type="checkbox" id="9x1"> <button id="R9x1" onclick="ClipIt(91)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="9x2"> <button id="R9x2" onclick="ClipIt(92)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="9x3"> <button id="R9x3" onclick="ClipIt(93)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="9x4"> <button id="R9x4" onclick="ClipIt(94)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="9x5"> <button id="R9x5" onclick="ClipIt(95)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">10</td>
+<td style="width: 19%"><input type="checkbox" id="10x1"> <button id="R10x1" onclick="ClipIt(101)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="10x2"> <button id="R10x2" onclick="ClipIt(102)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="10x3"> <button id="R10x3" onclick="ClipIt(103)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="10x4"> <button id="R10x4" onclick="ClipIt(104)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="10x5"> <button id="R10x5" onclick="ClipIt(105)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">11</td>
+<td style="width: 19%"><input type="checkbox" id="11x1"> <button id="R11x1" onclick="ClipIt(111)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="11x2"> <button id="R11x2" onclick="ClipIt(112)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="11x3"> <button id="R11x3" onclick="ClipIt(113)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="11x4"> <button id="R11x4" onclick="ClipIt(114)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="11x5"> <button id="R11x5" onclick="ClipIt(115)">Run</button></td>
+</tr>
+<tr>
+<td style="width: 5%">12</td>
+<td style="width: 19%"><input type="checkbox" id="12x1"> <button id="R12x1" onclick="ClipIt(121)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="12x2"> <button id="R12x2" onclick="ClipIt(122)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="12x3"> <button id="R12x3" onclick="ClipIt(123)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="12x4"> <button id="R12x4" onclick="ClipIt(124)">Run</button></td>
+<td style="width: 19%"><input type="checkbox" id="12x5"> <button id="R12x5" onclick="ClipIt(125)">Run</button></td>
+</tr>
+</tbody>
+</table>
+<button onclick="ChalReset()">Reset</button>
+<script>
+
+function ChalReset(){
+	for (let n = 1; n < 13; n++) {
+		for (let i = 1; i < 6; i++) {
+			let chal = n+"x"+i;
+			document.getElementById(chal).checked = false;
+		}
+	}
+}
+
+function ChalUpdate(){
+	let ChalReq = [[130,140,147,163,176],[135,157,182,200,240],[140,155,163,182,200],[143,170,176,245,370],[147,182,200,215,245],[161,176,200,264,320],[166,193,215,264,858],[200,310,450,600,825],[522,575,660,760,830],[858,1820,2050,2740,4135],[4870,4870,5950,5950,5950],[9800,9800,10750,11200,12350]];
+	
+	for (let n = 1; n < 13; n++) {
+		for (let i = 1; i < 6; i++) {
+			let chal = "R"+n+"x"+i;
+			let TTC = document.getElementById("TT").value;
+			document.getElementById(chal).disabled = false;
+			if (TTC < ChalReq[n-1][i-1]) document.getElementById(chal).disabled = true;
+		}
+	}
+}
+
+function ClipIt(Chal) {
+	if (Chal == 11) navigator.clipboard.writeText("11,22,32,42,51,61,72,82,92,102,111,121,131,141,151,161,171|1"); 
+	if (Chal == 12) navigator.clipboard.writeText("11,21,22,32,42,51,61,72,82,92,102,111,121,131,141,151,161,162,171|1");
+	if (Chal == 13) navigator.clipboard.writeText("11,21,22,32,33,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|1");
+	if (Chal == 14) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|1");
+	if (Chal == 15) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|1");
+	if (Chal == 21) navigator.clipboard.writeText("11,22,32,42,51,61,73,83,93,103,111,121,131,141,151,161,171|2");
+	if (Chal == 22) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|2");
+	if (Chal == 23) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|2");
+	if (Chal == 24) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|2");
+	if (Chal == 25) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|2");
+	if (Chal == 31) navigator.clipboard.writeText("11,22,32,42,51,61,71,81,91,101,111,122,132,142,151,161,162,171|3");
+	if (Chal == 32) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162,171|3");
+	if (Chal == 33) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|3");
+	if (Chal == 34) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|3");
+	if (Chal == 35) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|3");
+	if (Chal == 41) navigator.clipboard.writeText("11,21,22,32,33,42,51,61,73,83,93,103,111,123,133,143|4");
+	if (Chal == 42) navigator.clipboard.writeText("11,22,32,42,51,61,73,83,93,103,111,123,133,143,151,162,171|4");
+	if (Chal == 43) navigator.clipboard.writeText("11,21,22,32,42,51,61,62,73,83,93,103,111,123,133,143,151,162,171|4");
+	if (Chal == 44) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,123,133,143,151,161,162,171|4");
+	if (Chal == 45) navigator.clipboard.writeText("11,22,32,42,51,61,73,83,93,103,111,123,133,143,151,162,171,181|4");
+	if (Chal == 51) navigator.clipboard.writeText("11,21,22,32,42,51|5");
+	if (Chal == 52) navigator.clipboard.writeText("11,22,32,42,51,61,72,82,92,102,111|5");
+	if (Chal == 53) navigator.clipboard.writeText("11,22,32,42,51,61,72,82,92,102,111,121,131,141|5");
+	if (Chal == 54) navigator.clipboard.writeText("11,21,22,32,42,51,61,62,72,82,92,102,111,121,131,141,151|5");
+	if (Chal == 55) navigator.clipboard.writeText("11,21,22,32,33,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|5");
+	if (Chal == 61) navigator.clipboard.writeText("11,21,22,32,42,51,61,62,72,82,92,102,111,121,131,141|6");
+	if (Chal == 62) navigator.clipboard.writeText("11,21,22,32,42,51,61,62,72,82,92,102,111,121,131,141,151,162|6");
+	if (Chal == 63) navigator.clipboard.writeText("11,21,22,32,33,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|6");
+	if (Chal == 64) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|6");
+	if (Chal == 65) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,72,82,92,102,111,121,131,141,151,161,162,171|6");
+	if (Chal == 71) navigator.clipboard.writeText("11,21,22,32,42,51,61,62,71,81,91,101,111|7");
+	if (Chal == 72) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141|7");
+	if (Chal == 73) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162|7");
+	if (Chal == 74) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162,171|7");
+	if (Chal == 75) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162,171,181,193,214|7");
+	if (Chal == 81) navigator.clipboard.writeText("11,22,32,42,51,61,73,83,93,103,111,123,133,143,151,162|8");
+	if (Chal == 82) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,123,133,143,151,161,162,171|8");
+	if (Chal == 83) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,123,133,143,151,161,162,171,181|8");
+	if (Chal == 84) navigator.clipboard.writeText("11,21,22,31,32,33,42,51,61,62,73,83,93,103,111,123,133,143,151,161,162,171,181|8");
+	if (Chal == 85) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,123,133,143,151,161,162,171,181|8");
+	if (Chal == 91) navigator.clipboard.writeText("11,22,32,42,51,61,73,83,93,103,111,121,131,141,151,161,162,171|9");
+	if (Chal == 92) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|9");
+	if (Chal == 93) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171|9");
+	if (Chal == 94) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171,181|9");
+	if (Chal == 95) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,73,83,93,103,111,121,131,141,151,161,162,171,181|9");
+	if (Chal == 101) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,171,181|10");
+	if (Chal == 102) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,171,181,191,193,211,214|10");
+	if (Chal == 103) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,171,181,192,193,214|10");
+	if (Chal == 104) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,171,181,191,192,193,211,213,214|10");
+	if (Chal == 105) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,171,181,191,192,193,211,213,214,222,231|10");
+	if (Chal == 111) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162,171,181,191,192,193,211,213,222,225,231,233|11");
+	if (Chal == 112) navigator.clipboard.writeText("11,21,22,31,32,33,41,42,51,61,62,71,81,91,101,111,121,131,141,151,161,162,171,181,191,192,193,211,213,222,225,231,233|11");
+	if (Chal == 113) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,71,81,91,101,111,123,133,143,151,161,162,171,181,191,192,193,211,212,213,222,223,225,231,233|11");
+	if (Chal == 114) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,71,81,91,101,111,123,133,143,151,161,162,171,181,191,192,193,211,212,213,222,223,225,231,233|11");
+	if (Chal == 115) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,71,81,91,101,111,123,133,143,151,161,162,171,181,191,192,193,211,212,213,222,223,225,231,233|11");
+	if (Chal == 121) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,73,83,93,103,111,122,132,142,151,161,162,171,181,191,193,211,212,213,214,222,224,226,227,232,234|12");
+	if (Chal == 122) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,73,83,93,103,111,122,132,142,151,161,162,171,181,191,193,211,212,213,214,222,224,226,227,232,234|12");
+	if (Chal == 123) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,73,83,93,103,111,122,132,142,151,161,162,171,181,191,193,211,212,213,214,222,224,226,227,232,234|12");
+	if (Chal == 124) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,73,83,93,103,111,122,132,142,151,161,162,171,181,191,193,211,212,213,214,222,224,226,227,232,234|12");
+	if (Chal == 125) navigator.clipboard.writeText("11,21,22,31,32,41,42,51,61,62,73,83,93,103,111,122,132,142,151,161,162,171,181,191,193,211,212,213,214,222,224,226,227,232,234|12");
+}
+</script>
+</body>
+</html>
